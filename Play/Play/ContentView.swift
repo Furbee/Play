@@ -15,8 +15,6 @@ struct ContentView: View {
             Color.init(red:0.04, green:0.05, blue:0.05)
             .edgesIgnoringSafeArea(.all)
             ScrollView {
-                Color.init(red:0.04, green:0.05, blue:0.05)
-                .edgesIgnoringSafeArea(.all)
                 Spacer().frame(height: 20)
                 WebView()
                     .frame(height: g.size.height)

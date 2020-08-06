@@ -11,8 +11,6 @@ import SwiftUI
 import WebKit
 
 struct WebView: NSViewRepresentable {
-    
-
     let view: WKWebView = WKWebView()
     var request: URLRequest {
         get{
